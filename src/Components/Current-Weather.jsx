@@ -8,7 +8,7 @@ export default function CurrentWeather(props) {
     <div
       className="weather"
       style={{
-        width: 400,
+        width: "75%",
         height: "100%",
         borderRadius: "6px",
         boxShadow: "10px -2px 20px 2px rgb(0 0 0 / 60%)",

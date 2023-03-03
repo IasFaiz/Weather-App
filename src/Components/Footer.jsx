@@ -14,7 +14,7 @@ export default function Footer() {
         color: "#757575",
       }}
     >
-      <h3>Copyrights © 2023 By Faiz</h3>
+      <p>Copyrights © 2023 By Faiz</p>
     </div>
   );
 }
