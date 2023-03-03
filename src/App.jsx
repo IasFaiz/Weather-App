@@ -4,6 +4,9 @@ import CurrentWeather from "./Components/Current-Weather";
 import Search from "./Components/Search";
 import { WeatherUrl, WeatherKey } from "./Components/GeoApi";
 import Forecast from "./Components/Forecast";
+import Greetings from "./Components/Greetings";
+import Footer from "./Components/Footer";
+import NavBar from "./Components/Navbar";
 // import { useState } from "react";
 
 function App() {
@@ -28,14 +31,16 @@ function App() {
     // forecast && console.log("forecastData", forecast);
   }
   return (
-    <div className="container">
+    <div className="container" style={{}}>
+      <NavBar />
       <Search onSearchChange={HandleOnSearchChange} />
       {weather ? (
         <CurrentWeather forecastData={forecast} weatherData={weather} />
       ) : (
-        <h1>Please Select a City.</h1>
+        <Greetings />
       )}
       {forecast && <Forecast forecast={forecast} />}
+      <Footer />
     </div>
   );
 }

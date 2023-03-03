@@ -29,13 +29,14 @@ export default function Search({ onSearchChange }) {
   };
 
   return (
-    <AsyncPaginate
-      placeholder="Search for city"
-      debounceTimeout={900}
-      value={search}
-      onChange={handelOnChange}
-      loadOptions={loadOptions}
-      styles={{ width: "200px" }}
-    />
+    <div style={{ width: "800px", margin: "20px auto" }}>
+      <AsyncPaginate
+        placeholder="Search for city"
+        debounceTimeout={900}
+        value={search}
+        onChange={handelOnChange}
+        loadOptions={loadOptions}
+      />
+    </div>
   );
 }

@@ -26,7 +26,8 @@ export default function Forecast({ forecast }) {
   return (
     <div
       style={{
-        margin: "50px 0",
+        margin: "50px auto",
+        maxWidth: "90%",
       }}
     >
       <label
@@ -60,14 +61,14 @@ export default function Forecast({ forecast }) {
                 <AccordionItemButton>
                   <div
                     style={{
-                      height: "40px",
+                      height: "8%",
                       backgroundColor: "white",
-                      margin: "5px",
+                      margin: "1%",
                       borderRadius: "15px",
                       display: "flex",
                       alignItems: "center",
                       cursor: "pointer",
-                      padding: "5px 20px",
+                      padding: "1% 2%",
 
                       //   justifyContent: "space-between",
                     }}
@@ -88,7 +89,8 @@ export default function Forecast({ forecast }) {
                         color: "#212121",
                         fontWeight: "600",
                         flex: "1 1",
-                        marginLeft: "20px",
+                        marginLeft: "2%",
+                        fontSize: "20px",
                       }}
                     >
                       {WeekDays[index]}
@@ -97,8 +99,9 @@ export default function Forecast({ forecast }) {
                       htmlFor=""
                       style={{
                         flex: "1 1",
-                        marginRight: "25px",
+                        marginRight: "3%",
                         textAlign: "right",
+                        fontSize: "20px",
                       }}
                     >
                       {e.weather[0].description}
@@ -107,6 +110,7 @@ export default function Forecast({ forecast }) {
                       htmlFor=""
                       style={{
                         color: "#757575",
+                        fontSize: "20px",
                       }}
                     >
                       {Math.round(e.main.temp_min - 273) + "°C"}/
@@ -118,12 +122,15 @@ export default function Forecast({ forecast }) {
               <AccordionItemPanel>
                 <div
                   style={{
+                    maxWidth: "100%",
                     display: "grid",
                     rowGap: "2px",
                     columnGap: "10px",
                     flex: "1 1",
-                    gridTemplateColumns: "auto auto",
-                    padding: "5px 20px",
+                    // gridTemplateColumns: "auto auto",
+                    padding: "5px 5px",
+                    fontSize: "20px",
+                    fontWeight: "800",
                   }}
                 >
                   <div
@@ -131,7 +138,7 @@ export default function Forecast({ forecast }) {
                       display: "flex",
                       justifyContent: "space-between",
                       //   flex: "1 1",
-                      height: "25px",
+
                       alignItems: "center",
                       padding: "2px 20px",
                     }}

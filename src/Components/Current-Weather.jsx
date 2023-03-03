@@ -11,7 +11,7 @@ export default function CurrentWeather(props) {
         width: 400,
         height: "100%",
         borderRadius: "6px",
-        boxShadow: "10px -2px 20px 2px rgb(0 0 0 / 40%)",
+        boxShadow: "10px -2px 20px 2px rgb(0 0 0 / 60%)",
         color: "#fff",
         backgroundColor: "#003366",
         margin: " 20px auto 0 auto",

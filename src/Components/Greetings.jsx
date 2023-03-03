@@ -5,11 +5,12 @@ export default function Greetings() {
     <div
       style={{
         border: "1px solid blue",
-        maxWidth: "70%",
+        maxWidth: "50%",
         rowGap: "0px",
-        margin: "6% auto",
+        margin: "3% auto",
         padding: "1%",
         backgroundColor: "#003366",
+        boxShadow: "10px -2px 20px 2px rgb(0 0 0 / 60%)",
         borderRadius: "10px",
         color: "white",
         display: "flex",
@@ -17,13 +18,13 @@ export default function Greetings() {
     >
       <div
         style={{
-          marginLeft: "20px",
+          marginLeft: "10px",
         }}
       >
         <h2
           style={{
             fontFamily: "cursive",
-            fontSize: "100%",
+            fontSize: "35px",
           }}
         >
           Choose a City Above.
@@ -44,7 +45,7 @@ export default function Greetings() {
       </div>
       <div
         style={{
-          width: "25%",
+          width: "20%",
           height: "25%",
           margin: "10% 3%",
         }}
@@ -54,7 +55,7 @@ export default function Greetings() {
           style={{
             width: "100%",
             height: "100%",
-            margin: "10% 10%",
+            margin: "10% 5%",
             borderRadius: "50%",
           }}
         />
