@@ -22,29 +22,39 @@ export default function Greetings() {
       >
         <h2
           style={{
-            fontSize: "35px",
+            fontSize: "15px",
           }}
         >
           Choose a City Above.
         </h2>
-        <h3>Thanks for using this App. 😀</h3>
+        <h3
+          style={{
+            fontSize: "12px",
+          }}
+        >
+          Thanks for using this App. 😀
+        </h3>
         <p
           style={{
-            fontSize: "20px",
+            fontSize: "10px",
           }}
         >
           This App is Designed and Developed by <em> Faiz Ahmad</em>.<br /> Here
           You can check Weather of any City Worldwide.
         </p>
-        <p>
+        <p
+          style={{
+            fontSize: "10px",
+          }}
+        >
           Population should be greater than <em>2 laks.</em>
         </p>
       </div>
       <div
         style={{
-          width: "45%",
-          height: "45%",
-          margin: "5% 3%",
+          width: "50px",
+          height: "50px",
+          margin: "5px 3px",
         }}
       >
         <img

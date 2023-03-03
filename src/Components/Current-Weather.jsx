@@ -8,7 +8,7 @@ export default function CurrentWeather(props) {
     <div
       className="weather"
       style={{
-        width: "75%",
+        width: "80%",
         height: "100%",
         borderRadius: "6px",
         boxShadow: "10px -2px 20px 2px rgb(0 0 0 / 60%)",
@@ -75,10 +75,10 @@ export default function CurrentWeather(props) {
           className="temperature"
           style={{
             fontWeight: 600,
-            fontSize: "70px",
+            fontSize: "45px",
             width: "auto",
-            letterSpacing: "-5px",
-            margin: " 10px 10px",
+            // letterSpacing: "-5px",
+            margin: " 2px 2px",
           }}
         >
           {props.weatherData.name
@@ -100,7 +100,7 @@ export default function CurrentWeather(props) {
           >
             <span
               className="parameter-label"
-              style={{ textAlign: "left", fontWeight: 400, fontSize: "13px" }}
+              style={{ textAlign: "left", fontWeight: 400, fontSize: "12px" }}
             >
               Description
             </span>
@@ -109,7 +109,7 @@ export default function CurrentWeather(props) {
               style={{
                 textAlign: "left",
                 fontWeight: 600,
-                fontSize: "13px",
+                fontSize: "12px",
               }}
             >
               {props.weatherData.name
@@ -123,7 +123,7 @@ export default function CurrentWeather(props) {
           >
             <span
               className="parameter-label"
-              style={{ textAlign: "left", fontWeight: 400, fontSize: "13px" }}
+              style={{ textAlign: "left", fontWeight: 400, fontSize: "12px" }}
             >
               Feels like
             </span>
@@ -132,7 +132,7 @@ export default function CurrentWeather(props) {
               style={{
                 textAlign: "left",
                 fontWeight: 600,
-                fontSize: "13px",
+                fontSize: "12px",
               }}
             >
               {props.weatherData.name
@@ -146,13 +146,13 @@ export default function CurrentWeather(props) {
           >
             <span
               className="parameter-label"
-              style={{ textAlign: "left", fontWeight: 400, fontSize: "13px" }}
+              style={{ textAlign: "left", fontWeight: 400, fontSize: "12px" }}
             >
               Wind
             </span>
             <span
               className="parameter-label"
-              style={{ textAlign: "left", fontWeight: 600, fontSize: "13px" }}
+              style={{ textAlign: "left", fontWeight: 600, fontSize: "12px" }}
             >
               {props.weatherData.name
                 ? Math.round(props.weatherData.wind.speed) + " m/s"
@@ -165,13 +165,13 @@ export default function CurrentWeather(props) {
           >
             <span
               className="parameter-label"
-              style={{ textAlign: "left", fontWeight: 400, fontSize: "13px" }}
+              style={{ textAlign: "left", fontWeight: 400, fontSize: "12px" }}
             >
               Humidity
             </span>
             <span
               className="parameter-label"
-              style={{ textAlign: "left", fontWeight: 600, fontSize: "13px" }}
+              style={{ textAlign: "left", fontWeight: 600, fontSize: "12px" }}
             >
               {props.weatherData.name
                 ? props.weatherData.main.humidity + "%"
@@ -184,13 +184,13 @@ export default function CurrentWeather(props) {
           >
             <span
               className="parameter-label"
-              style={{ textAlign: "left", fontWeight: 400, fontSize: "13px" }}
+              style={{ textAlign: "left", fontWeight: 400, fontSize: "12px" }}
             >
               Pressure
             </span>
             <span
               className="parameter-label"
-              style={{ textAlign: "left", fontWeight: 600, fontSize: "13px" }}
+              style={{ textAlign: "left", fontWeight: 600, fontSize: "12px" }}
             >
               {props.weatherData.name
                 ? props.weatherData.main.pressure + " pa"

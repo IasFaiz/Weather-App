@@ -29,7 +29,7 @@ export default function Search({ onSearchChange }) {
   };
 
   return (
-    <div style={{ width: "80%", margin: "20px auto" }}>
+    <div style={{ width: "85%", margin: "20px auto" }}>
       <AsyncPaginate
         placeholder="Search for city"
         debounceTimeout={900}

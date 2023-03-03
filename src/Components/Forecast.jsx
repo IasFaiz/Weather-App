@@ -34,7 +34,7 @@ export default function Forecast({ forecast }) {
         htmlFor=""
         className="title"
         style={{
-          fontSize: "22px",
+          fontSize: "15px",
           color: "#212121",
           fontWeight: "500",
         }}
@@ -45,7 +45,7 @@ export default function Forecast({ forecast }) {
         htmlFor=""
         className="title"
         style={{
-          fontSize: "15px",
+          fontSize: "12px",
           color: "#757575",
           fontWeight: "300",
           marginLeft: "10px",
@@ -90,7 +90,7 @@ export default function Forecast({ forecast }) {
                         fontWeight: "600",
                         flex: "1 1",
                         marginLeft: "2%",
-                        fontSize: "20px",
+                        fontSize: "16px",
                       }}
                     >
                       {WeekDays[index]}
@@ -101,7 +101,7 @@ export default function Forecast({ forecast }) {
                         flex: "1 1",
                         marginRight: "3%",
                         textAlign: "right",
-                        fontSize: "20px",
+                        fontSize: "15px",
                       }}
                     >
                       {e.weather[0].description}
@@ -110,7 +110,7 @@ export default function Forecast({ forecast }) {
                       htmlFor=""
                       style={{
                         color: "#757575",
-                        fontSize: "20px",
+                        fontSize: "15px",
                       }}
                     >
                       {Math.round(e.main.temp_min - 273) + "°C"}/

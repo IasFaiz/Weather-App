@@ -7,9 +7,9 @@ const Header = () => {
       style={{
         background: "#003366",
         width: "100%",
-        height: "65px",
+        height: "50px",
         color: "white",
-        fontSize: "30px",
+        fontSize: "20px",
         boxShadow: "0px 1px 10px 1px #bababa",
         // margin: "10px 10px",
       }}
@@ -36,8 +36,8 @@ const Header = () => {
             padding: "0px",
           }}
         >
-          <ThunderstormOutlinedIcon fontSize="large" />
-          <WbSunnyOutlinedIcon fontSize="large" />
+          <ThunderstormOutlinedIcon />
+          <WbSunnyOutlinedIcon />
         </div>
       </nav>
     </div>
