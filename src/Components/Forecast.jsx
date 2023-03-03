@@ -125,11 +125,11 @@ export default function Forecast({ forecast }) {
                     maxWidth: "100%",
                     display: "grid",
                     rowGap: "2px",
-                    columnGap: "10px",
+                    columnGap: "5px",
                     flex: "1 1",
                     // gridTemplateColumns: "auto auto",
-                    padding: "5px 5px",
-                    fontSize: "20px",
+                    padding: "2px 2px",
+                    fontSize: "15px",
                     fontWeight: "800",
                   }}
                 >
@@ -140,7 +140,7 @@ export default function Forecast({ forecast }) {
                       //   flex: "1 1",
 
                       alignItems: "center",
-                      padding: "2px 20px",
+                      padding: "2px 10px",
                     }}
                   >
                     <label
@@ -168,7 +168,7 @@ export default function Forecast({ forecast }) {
                       //   flex: "1 1",
                       height: "25px",
                       alignItems: "center",
-                      padding: "2px 20px",
+                      padding: "2px 10px",
                     }}
                   >
                     <label
@@ -195,7 +195,7 @@ export default function Forecast({ forecast }) {
                       //   flex: "1 1",
                       height: "25px",
                       alignItems: "center",
-                      padding: "2px 20px",
+                      padding: "2px 10px",
                     }}
                   >
                     <label
@@ -223,7 +223,7 @@ export default function Forecast({ forecast }) {
                       //   flex: "1 1",
                       height: "25px",
                       alignItems: "center",
-                      padding: "2px 20px",
+                      padding: "2px 10px",
                     }}
                   >
                     <label
@@ -253,7 +253,7 @@ export default function Forecast({ forecast }) {
                       //   flex: "1 1",
                       height: "25px",
                       alignItems: "center",
-                      padding: "2px 20px",
+                      padding: "2px 10px",
                     }}
                   >
                     <label
@@ -281,7 +281,7 @@ export default function Forecast({ forecast }) {
                       //   flex: "1 1",
                       height: "25px",
                       alignItems: "center",
-                      padding: "2px 20px",
+                      padding: "2px 10px",
                     }}
                   >
                     <label
@@ -312,7 +312,7 @@ export default function Forecast({ forecast }) {
                       //   flex: "1 1",
                       height: "25px",
                       alignItems: "center",
-                      padding: "2px 20px",
+                      padding: "2px 10px",
                     }}
                   >
                     <label
@@ -339,7 +339,7 @@ export default function Forecast({ forecast }) {
                       //   flex: "1 1",
                       height: "25px",
                       alignItems: "center",
-                      padding: "2px 20px",
+                      padding: "2px 10px",
                     }}
                   >
                     <label
