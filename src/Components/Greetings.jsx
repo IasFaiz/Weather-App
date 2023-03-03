@@ -4,8 +4,7 @@ export default function Greetings() {
   return (
     <div
       style={{
-        border: "1px solid blue",
-        maxWidth: "50%",
+        maxWidth: "80%",
         rowGap: "0px",
         margin: "3% auto",
         padding: "1%",
@@ -45,8 +44,8 @@ export default function Greetings() {
       </div>
       <div
         style={{
-          width: "20%",
-          height: "25%",
+          width: "40%",
+          height: "40%",
           margin: "10% 3%",
         }}
       >
@@ -55,7 +54,7 @@ export default function Greetings() {
           style={{
             width: "100%",
             height: "100%",
-            margin: "10% 5%",
+            // margin: "10% 5%",
             borderRadius: "50%",
           }}
         />

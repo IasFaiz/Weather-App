@@ -6,6 +6,7 @@ const Header = () => {
     <div
       style={{
         background: "#003366",
+        width: "100%",
         height: "65px",
         color: "white",
         fontSize: "30px",
