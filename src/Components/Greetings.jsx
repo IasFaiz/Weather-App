@@ -22,7 +22,6 @@ export default function Greetings() {
       >
         <h2
           style={{
-            fontFamily: "cursive",
             fontSize: "35px",
           }}
         >
@@ -31,7 +30,6 @@ export default function Greetings() {
         <h3>Thanks for using this App. 😀</h3>
         <p
           style={{
-            fontFamily: "cursive",
             fontSize: "20px",
           }}
         >
@@ -44,9 +42,9 @@ export default function Greetings() {
       </div>
       <div
         style={{
-          width: "40%",
-          height: "40%",
-          margin: "10% 3%",
+          width: "45%",
+          height: "45%",
+          margin: "5% 3%",
         }}
       >
         <img
