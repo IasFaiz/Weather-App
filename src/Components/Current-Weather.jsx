@@ -24,7 +24,6 @@ export default function CurrentWeather(props) {
           display: "flex",
           justifyContent: "space-between",
           alignSelf: "center",
-          //   height: "120px",
         }}
       >
         <div>
