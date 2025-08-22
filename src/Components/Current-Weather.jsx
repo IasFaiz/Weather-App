@@ -9,7 +9,7 @@ export default function CurrentWeather(props) {
       className="weather"
       style={{
         width: "80%",
-        height: "100%",
+        height: "99%",
         borderRadius: "6px",
         boxShadow: "10px -2px 20px 2px rgb(0 0 0 / 60%)",
         color: "#fff",
